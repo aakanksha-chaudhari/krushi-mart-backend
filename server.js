@@ -13,9 +13,10 @@ const PORT = process.env.PORT || 5000;
 // ✅ Updated CORS configuration
 app.use(cors({
   origin: [
-    "http://127.0.0.1:5500", // Local frontend
+
+    "http://127.0.0.1:5501",// Local frontend    
     "http://localhost:5500", // Another local form
-    "https://your-frontend.vercel.app" // Replace with your actual deployed frontend URL
+    "https://krushi-mart-frontend.vercel.app/" // Replace with your actual deployed frontend URL
   ],
   methods: "GET,POST,PUT,DELETE,OPTIONS",
   allowedHeaders: ["Content-Type", "Authorization"],
