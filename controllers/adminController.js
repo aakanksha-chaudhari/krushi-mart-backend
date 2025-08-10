@@ -1,5 +1,5 @@
 // backend/controllers/adminController.js
-const Admin = require("../models/Admin");
+const Admin = require("../models/admin");
 const bcrypt = require("bcryptjs");
 
 // Register Admin
