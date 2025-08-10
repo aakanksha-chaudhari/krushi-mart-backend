@@ -16,7 +16,7 @@ app.use(cors({
 
     "http://127.0.0.1:5501",// Local frontend    
     "http://localhost:5500", // Another local form
-    "https://krushi-mart-frontend.vercel.app/" // Replace with your actual deployed frontend URL
+    "https://krushi-mart-frontend.vercel.app" // Replace with your actual deployed frontend URL
   ],
   methods: "GET,POST,PUT,DELETE,OPTIONS",
   allowedHeaders: ["Content-Type", "Authorization"],
