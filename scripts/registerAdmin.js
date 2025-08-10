@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const dotenv = require('dotenv');
-const Admin = require('../models/Admin'); // this must point to your Admin model
+const Admin = require('../models/admin'); // this must point to your Admin model
 
 dotenv.config();
 
